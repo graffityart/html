@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.npokerslot.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	1674997658|hrXQORkvJk6h
+www.npokerslot.com	TRUE	/	FALSE	1999999999	TS01d6ca82	01286b42aff9952eeee70d165609e542f8a18756fcecac22ed4b57076ee0db973d47a1a433224bdc267a185117efd1aac4739b29c5
+www.npokerslot.com	TRUE	/	FALSE	1999999999	ssr-caching	cache#desc=hit#varnish=hit_etag#dc#desc=uw2-pub-1
+www.npokerslot.com	TRUE	/	FALSE	1999999999	TS01e85bed	0127337542fbd62a579239d5c9e5604051fcc412869b3974b70244458ab809de1c6552b56d91b8b1ab0b115431c0cbc8c72bdc0b51
+www.npokerslot.com	TRUE	/	FALSE	1999999999	SameSite	none
+
