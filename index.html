@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+<meta name="naver-site-verification" content="a06b1e006033337eb2d53c2f8efa44af2e69b00f" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="description" content="대경티켓 모바일상품권 365일 24시간 연중무휴 안전거래 대경상품권">
+<meta property="og:type" content="website">
+<meta property="og:title" content="대경티켓">
+<meta property="og:description" content="대경티켓 모바일상품권 365일 24시간 연중무휴 안전거래 대경상품권">
+<meta property="og:image" content="images/visual.jpg">
+<meta property="og:url" content="">
+<title>대경티켓</title>
+
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="css/mobile.css">
+<link rel="stylesheet" href="js/font-awesome/css/font-awesome.min.css">
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/user.script.js"></script>
+</head>
+
+<body>
+
+<!-- wrapper -->
+<div id="wrapper">
+	<!--header-->
+	<header id="header"></header>
+
+	<!--header-->
+	<!--contents-->
+
+<div id="contents" class="main">
+
+  <div id="visual">
+    <img src="images/visual.jpg" alt="">
+	<a href="tel: 010-8230-2201"><img src="images/cs01.jpg" alt="전화연결"></a>
+    <a href="http://qr.kakao.com/talk/5EUeYjVZUCC2utAw8EXXckHIYgE-" target="_blank"><img src="images/cs02.jpg" alt="카카오톡"></a>
+  </div>
+  <div id="main01" class="main_cont">
+    <img src="images/content01.jpg" alt="">
+  </div>
+  <div id="main02" class="main_cont">
+    <img src="images/content02.jpg" alt="">
+  </div>
+  <div id="main02" class="main_cont">
+    <img src="images/content03.jpg" alt="">
+  </div>
+  
+  <div id="main03" class="main_cont">
+    <img src="images/content06.html" alt="">
+	<a href="tel: 010-8230-2201"><img src="images/cs03.jpg" alt="고객센터"></a>
+    <a href="http://qr.kakao.com/talk/5EUeYjVZUCC2utAw8EXXckHIYgE-" target="_blank"><img src="images/cs04.jpg" alt="카카오톡"></a>
+  </div>
+
+</div>
+	<!--contents-->
+	<!--footer-->
+	<footer id="footer">
+		<div class="ft_btm">
+			<!--ul class="ft_menu">
+				<li><a href="#">사업자정보확인</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">이용안내</a></li>
+			</ul-->
+			<ul class="info">
+				<li>상호 : 대경티켓</li>
+				<li>대표번호 : 010-8230-2201</li>
+				<li>대표 : 박자영</li>
+				<li>카카오톡 ID : T8245</li>
+			</ul>
+			<p class="copyright">
+				Copyright ⓒ 대경티켓. All rights reserved</p>
+		</div>
+	</footer>
+	<!--footer-->
+</div>
+<!-- wrapper -->
+<script>
+	<!--
+
+	$(document).ready(function(){
+		$('#btn_nav').click(function(){
+			$('#wrapper').toggleClass('on');
+			return false;
+		})
+	})
+
+			var rt_slider = new Swiper('.rt_slider',{
+				autoplay:{},
+				loop:true,
+				slidesPerView:6,
+				direction:'vertical'
+			})
+
+			var hd_btm = new Swiper('.hd_btm',{
+				autoplay:{
+					delay: 0,
+				},
+				speed: 3000,
+				loop:true,
+      	freeMode: true,
+				simulateTouch:false,
+				allowTouchMove:false,
+
+			})
+
+
+			$('.caution .btn_show').click(function(){
+				$('.caution .cont').slideToggle();
+				return false;
+			})
+
+			$( "#tabs" ).tabs({
+				activate : function(event,ui){}
+
+			});
+			$( "#tabs" ).on( "tabsactivate", function( event, ui ) {
+
+							var gc_slider1 = new Swiper('.gc_slider1',{
+								autoplay:{},
+								loop:true,
+								slidesPerView:1.5,
+								navigation: {
+					        nextEl: '.gc_next1',
+					        prevEl: '.gc_prev1',
+					      },
+					      centeredSlides:true,
+
+							})
+							var gc_slider2 = new Swiper('.gc_slider2',{
+								autoplay:{},
+								loop:true,
+								slidesPerView:1.5,
+								navigation: {
+					        nextEl: '.gc_next2',
+					        prevEl: '.gc_prev2',
+					      },
+					      centeredSlides:true,
+
+							})
+							var gc_slider3 = new Swiper('.gc_slider3',{
+								autoplay:{},
+								loop:true,
+								slidesPerView:1.5,
+								navigation: {
+					        nextEl: '.gc_next3',
+					        prevEl: '.gc_prev3',
+					      },
+					      centeredSlides:true,
+
+							})
+			});
+
+
+			var gc_slider1 = new Swiper('.gc_slider1',{
+				autoplay:{},
+				loop:true,
+				slidesPerView:1.5,
+				navigation: {
+	        nextEl: '.gc_next1',
+	        prevEl: '.gc_prev1',
+	      },
+	      centeredSlides:true,
+
+			})
+	//-->
+</script>
+</body>
+
+
+<!-- Mirrored from pinmaket.mycafe24.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 05:01:17 GMT -->
+</html>
